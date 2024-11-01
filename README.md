@@ -1,262 +1,127 @@
-# Azure Static Web Apps Gallery 
+<div align="center">
+  <h1>🌐Static Web Apps Examples</h1>
 
-Welcome to the Azure Static Web Apps Gallery - a showcase of awesome projects built by community, and deployed to the **[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=staticwebapps-github-cxa)** service.
-
----
-
-## 🔥 | Add Your Project
-
-Want to have your project listed in the gallery?
- * Review the [**Contributing Guidelines**](CONTRIBUTING.md).
- * Fork [**the repository**](https://github.com/microsoft/static-web-apps-gallery-code-samples/fork) and create a branch for your addition
- * Follow this **[Pull Request Checklist](./.github/PULL_REQUEST_TEMPLATE/pull_request_template.md)**.
-
----
-
-## 📝 | Technologies Showcased
-
-The table showcases technologies for which projects were added - click the technology to visit the _section_ showcasing all its projects. If a project has a demo URL, the _IsLive_ column shows if that is still active (last-checked: **`Apr 18, 2022`**)
-
-| Technology | Project | Is Live |
-|:---|:---|:---|
-| [`Angular`](#Angular) |  [Catsify: A cat names generator](#catsify-a-cat-names-generator)| ✅ |
-| |  [ngxtools: Angular Package Registry](#ngxtools-angular-package-registry)|  ✅ |
-| | [angular-swa-auth library demo](#angular-swa-auth-library-demo)| ✅ |
-| [`Docusaurus`](#docusaurus)| [Docusaurus Starter](#docusaurus-starter)| ✅ |
-| [`Hugo`](#hugo) | [ngVikings 2020 Conference](#ngvikings-2020-a-free-online-conference-for-angular-developers)| ✅ |
-| [`Scully`](#scully)|  [PWA Blog](#pwa-blog)| ✅ |
-| [`Svelte`](#svelte)|  [Shop at Home](#shop-at-home)|✅|
-| [`Vanilla HTML/JS/CSS`](#vanilla-html-javascript-css)|[SWAG Demo: A Positive Thought For Your Day](#azure-swag-demo-a-positive-thought-for-your-day) | ✅ |
-| |[Nitrooo landing page](#nitrooo-landing-page) | ✅ |
-| |[Hexa CLI Landing Page](#hexa-cli-landing-page) | ✅  |
-| |[VS Code Can Do That](#vs-code-can-do-that) | ✅  |
-|[`VuePress`](#vuepress) | [Nitro Workshop](#nitro-workshop)| ✅  |
-| | [Peacock for Visual Studio Code Documentation](#peacock-for-visual-studio-code-documentation)| ✅  |
-| |[Cognitive Search Static Apps Demo](#cognitive-search-static-apps-demo) | ✅  |
-
----
-
-## 💻 | Projects (By Technology)
-
-## Angular
-
-### **[Catsify: A cat names generator](https://www.catsify.app/)**
+  [<img src="media/icons/ai-studio.svg" alt="OpenAI" width="24" height="24" /> ](#azure-static-web-apps--ai)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#azure-static-web-apps--web-frameworks)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)](#azure-static-web-apps--web-frameworks)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)](#azure-static-web-apps--web-frameworks)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](#azure-static-web-apps--web-frameworks)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#azure-static-web-apps-with-javascriptnodejs)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#azure-static-web-apps-with-typescriptnodejs)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](#azure-static-web-apps-with-javascriptnodejs)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](#azure-static-web-apps-with-net-and-blazor)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#azure-static-web-apps-with-python)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#azure-static-web-apps-with-java)
+   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+   [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](#azure-static-web-apps-with-go)
+</div>
 
 <p align="center">
-  <img src="docs/media/catsify.png" alt="Catsify App" width="100%">
+  <img src="media/images/appservicestatic.jpg" alt="Azure Static Web Apps" />
 </p>
 
-Catsify is a simple and creative app that allows you to find a unique name for your lovely cat. What's interesting about this app is that the names generator is all written in Rust and compiled to WASM; and the API is exposed through a Node.js Azure Function.
+This repository showcases a variety of examples, tutorials, and use cases of applications developed using different programming languages and frameworks, all hosted on **[Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/?WT.mc_id=javascript-154160-juliamuiruri)**.
 
-- Link to the project: **[HERE](https://www.catsify.app/)**
-- GitHub repo: **[HERE](https://github.com/manekinekko/catsify)**
+If you have a real-world application in production and would like to share it, we invite you to contribute by opening an issue and then a pull request. If you would like to view examples at the production level, please refer to the designated section: [Real World and Production examples with Azure Static Web Apps](#real-world-and-production-examples-com-azure-static-web-apps).
 
-> Stacks Used: `angular, typescript, azure static web apps, rust, web assembly, nodejs, azure functions`
+> [!NOTE]
+> Missing an application or specific example? Provide us with your feedback by opening an Issue and suggesting the inclusion of new examples.
 
----
+## Azure Static Web Apps + AI
 
-## Docusaurus
+Here you will find examples of intelligent (AI-Powered) applications running on Azure Static Web Apps, showcasing the diversity of scenarios and best practices for adopting AI integration in real-world projects.
 
-### **[Docusaurus Starter](https://ambitious-pebble-02b2d3010.azurestaticapps.net/)**
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [session-recommender](https://github.com/Azure-Samples/azure-sql-db-session-recommender-v2) | A session recommender for your next event. <br> <img src="media/icons/openai-logomark.png" alt="OpenAI" width="18" /> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/SQL.svg" alt="Azure SQL" width="18" height="18" /> <img src="media/icons/dab-logo.png" alt="Data API Builder" width="18" height="19" /> <br>[Try Live](https://ai.microsofthq.vslive.com/)        |
+| 2 | [create-your-own-chatgpt](https://github.com/Azure-Samples/azure-openai-rag-workshop) | An AI-powered chat application with RAG. <br> <img src="media/icons/aoi.svg" alt="Azure OpenAI" width="15" height="19" /> <img src="media/icons/nodejs.png" alt="Nodejs"  width="16" height="18" />  <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" /> <img src="media/icons/langchainjs.png" alt="Langchain.js" width="29" /> |
+| 3 | [serverless-ai-chat](https://github.com/Azure-Samples/serverless-chat-langchainjs)  | A Serverless AI Chat application. <br> <img src="media/icons/ollama.png" alt="Ollama" height="17" /> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="18" height="18" /> <img src="media/icons/cosmos.svg" alt="Azure CosmosDB" width="18" height="18" /> <img src="media/icons/langchainjs.png" alt="Langchain.js" width="23" />        |
+| 4 | [crafting-dynamic-document-models-DI](https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient) | Solution to improve the patient experience by automating the paper based registration process. <br> <img src="media/icons/cosmos.svg" alt="Azure CosmosDB" width="18" height="18" /> <img src="media/icons/document-intelligence.svg" alt="Azure Document Intelligence" width="15" height="15" />        |
+| 5 | [podcast-synopsis-generation](https://github.com/Azure-Samples/podcast-synopsis-generation-openai) | A Pipeline For Podcast Synopsis Generation (and more) With Azure OpenAI. <br> <img src="media/icons/openai-logomark.png" alt="OpenAI" width="16" /> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="18" height="18" />  <img src="media/icons/cognitive-services.svg" alt="Azure Cognitive services" width="18" height="18" />         |
+| 6 | [openai-assistant-function-calling](https://github.com/Azure-Samples/azure-openai-assistant-javascript) | Serverless Azure OpenAI Assistant Quick Start Function Calling. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="18" height="18" />   <img src="media/icons/aoi.svg" alt="Azure OpenAI" width="16" height="16" />       |
+
+## Azure Static Web Apps + Web Frameworks
+
+Here you will find examples of applications built using a variety of Frameworks running on Azure Static Web Apps.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [**svelte**-shop-at-home](https://github.com/azure-template-resources/shopathome-svelte) | Shop at Home app that allows customers to securely add, edit, view, and remove items such as food and household needs from their list. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" /> <br>  [Try Live](https://svelte.shopathome.dev/home)        |
+| 2 | [**angular**-shop-at-home](https://github.com/azure-template-resources/shopathome-svelte) | Shop at Home app that allows customers to securely add, edit, view, and remove items such as food and household needs from their list. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" /> <br> [Try Live](https://angular.shopathome.dev/home)        |
+| 3 | [**react**-shop-at-home](https://github.com/azure-template-resources/shopathome-react) | Shop at Home app that allows customers to securely add, edit, view, and remove items such as food and household needs from their list. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" /> <br> [Try Live](https://react.shopathome.dev/home)        |
+| 4 | [**vue**-shop-at-home](https://github.com/azure-template-resources/shopathome-vue) | Shop at Home app that allows customers to securely add, edit, view, and remove items such as food and household needs from their list. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" /> <br> [Try Live](https://react.shopathome.dev/home)        |
+| 5 | [**vue.js**-fullstack-todo-list](https://github.com/Azure-Samples/azure-sql-db-fullstack-serverless-kickstart) | A todo e2e reference app <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/SQL.svg" alt="Azure SQL" width="18" height="18" />           |
+| 6 | [**React**-3Tier-todo-app](https://github.com/azure-template-resources/todo-nodejs-pgsql-googleAuth) |  A sample Todo app to help you learn how to build a full-stack application with authentication and authorization <br> <img src="media/icons/nodejs.png" alt="Nodejs"  width="16" height="18" /> <img src="media/icons/postgresql.svg" alt="PostgreSQL DB"  width="16" height="18" /> <img src="media/icons/google-auth.png" alt="Google Authentication"  width="16" height="18" />            |
+
+
+## Azure Static Web Apps with JavaScript/Node.js
+
+The following examples demonstrate how to create applications using JavaScript and Node.js, hosted on Azure Static Web Apps.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [nodejs-microservices](https://github.com/Azure-Samples/nodejs-microservices) | A sample application showing Node.js microservices usage with an Azure infrastructure. <br> <img src="media/icons/icons8-vite.svg" alt="Vite" width="18" height="18" /> <img src="media/icons/nodejs.png" alt="Nodejs"  width="16" height="18" /> <img src="media/icons/nestjs.png" alt="Nestjs"  width="16" height="18" /> <img src="media/icons/fastify-logo.png" alt="Fastify" width="23" />  |
+
+
+## Azure Static Web Apps with TypeScript/Node.js
+
+The following examples demonstrate how to create applications using TypeScript and Node.js, hosted on Azure Static Web Apps.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [rest-graphql-todoMVC](https://github.com/Azure-Samples/azure-sql-db-prisma) | REST & GraphQL TodoMVC Sample App Full Stack Implementation with Prisma. <br> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/SQL.svg" alt="Azure SQL" width="18" height="18" /> <img src="media/icons/vuejs.png" alt="Vuejs" width="18" height="18" /> <img src="media/icons/prisma.webp" alt="Prisma" width="18" height="18" /> <img src="media/icons/github-actions.png" alt="GitHub Actions" width="18" height="18" />    |
+
+## Azure Static Web Apps with .NET and Blazor
+
+The following examples demonstrate how to create applications using .NET and Blazor, hosted on Azure Static Web Apps.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [products-finder](https://github.com/Azure-Samples/dab-azure-cosmos-db-nosql-quickstart) | A products finder implemented using Data API Builder. <br> <img src="media/icons/Blazor.png" alt="Blazor"  width="16" height="18" /> <img src="media/icons/AzureFunctionsApp.svg" alt="Azure Functions" width="19" height="18" /> <img src="media/icons/cosmos.svg" alt="Azure CosmosDB" width="18" height="18" /> <img src="media/icons/dab-logo.png" alt="Data API Builder" width="18" height="19" />    |
+
+## Azure Static Web Apps with Python
+
+The following examples demonstrate how to create applications using Python, hosted on Azure Static Web Apps.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [todo-application](https://github.com/Azure-Samples/todo-python-mongo-swa-func) | A TODO blueprint placeholder frontend <br> <img src="media/icons/cosmos.svg" alt="Azure CosmosDB" width="18" height="18" /> <img src="media/icons/fastapi.svg" alt="FastAPI" width="18" height="18" />    |
+
+
+# Real World and Production Examples with Azure Static Web Apps
+
+Here you will find examples of applications in production using Azure Static Web Apps, showcasing the diversity of scenarios and best practices for adopting this service in real-world projects.
+
+| # | Demo                 | Description |
+|---| -------------------- | ----------- |
+| 1 | [ngVikings 2020](https://github.com/ngvikings/ngvikings-2020) <br> <img src="media/icons/hugo-icon.png" alt="Hugo" width="38" />  | Website for ngVikings conference. ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 6500 active members in total. <br> [Try Live](https://www.ngvikings.org/)   |
+| 2 | [Nitro Workshop](https://github.com/nitro-stack/nitro-workshop) <br> <img src="media/icons/nodejs.png" alt="Nodejs"  width="16" height="18" /> <img src="media/icons/vuepress.png" alt="Vuepress"  width="22"  /> <img src="media/icons/nestjs.png" alt="Nestjs"  width="16" height="18" /> | Online workshop built with Vuepress to learn how to build a backend using NestJS. This is a practical workshop where you'll learn "hands-on" by iteratively building an application from scratch using NestJS and Azure. <br> [Try Live](https://nitro-stack.github.io/nitro-workshop/)   |
+| 3 | [Peacock for Visual Studio Code Documentation](https://github.com/johnpapa/vscode-peacock)  <br> <img src="media/icons/nodejs.png" alt="Nodejs"  width="16" height="18" /> <img src="media/icons/vuepress.png" alt="Vuepress"  width="22"  /> | Peacock is a Visual Studio Code extension with 700,000+ installations. It subtly changes the color of your Visual Studio Code workspace. This is ideal when you have multiple VS Code instances, use VS Live Share, or use VS Code's Remote features, and you want to quickly identify your editor. <br> [Try Live](https://www.peacockcode.dev/)   |
+
+# 🤝 Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 <p align="center">
-  <img src="docs/media/docusaurus-starter.PNG" alt="Docusaurus starter" width="100%">
+🚀 <strong>Get started now and take your app to the next level with <a href="https://learn.microsoft.com/azure/static-web-apps/?WT.mc_id=javascript-154160-juliamuiruri">Azure Static Web Apps</a>!</strong>
 </p>
-
-A simple starter template for creating documentation website using the Docusaurus framework.
-
-> Stacks Used: `reactjs, azure static web apps`
-
-- Link to the project: **[HERE](https://ambitious-pebble-02b2d3010.azurestaticapps.net/)**
-- GitHub repo: **[HERE](https://github.com/sumitkharche/docusaurus-swa-app)**
-- Author: [@sumitkharche01](https://twitter.com/sumitkharche01)
-
----
-
-## Gatsby
-
----
-
-## Hugo
-
-### **[ngVikings 2020: A free online conference for Angular developers](https://www.ngvikings.org/)**
-
-<p align="center">
-  <img src="docs/media/ngvikings2020.png" alt="ngVikings 2020" width="100%">
-</p>
-
-ngVikings is a non-profit, non-commercial, 100% community-driven event comprised of many Nordic Angular groups with more than 6500 active members in total.
-
-- **[ngVikings site](https://www.ngvikings.org/)**
-- **[ngVikings repo](https://github.com/ngvikings/ngvikings-2020)**
-
-> Stacks Used: `hugo, azure static web apps, workbox`
-
----
-
-## Mongoose
-
-![Mongoose logo](docs/media/mongoose.png)
-
-### [Azure Static Web Apps and Mongoose Starter Kit](https://github.com/GeekTrainer/aswa-student-starter-kit)
-
-![Preview image for Mongoose starter kit](docs/media/mongoose-starter.png)
-
-Mongoose is the most popular ODM (object document mapper) for Node.js. This basic starter includes the necessary code and steps to create Azure Static Web Apps with Cosmos DB and Mongoose. No front-end framework is used, allowing you to update the site as needed.
-
-> Stacks Used: `mongoose, cosmos db, azure static web apps`
-
-- **[Mongoose Starter Kit repo](https://github.com/geektrainer/aswa-student-starter-kit)
-- **[Author: GeekTrainer](https://twitter.com/geektrainer)
-
----
-
-## React.js
-
----
-
-### **[PWA Blog](https://www.webmax.ru/)**
-
-<p align="center">
-  <img src="docs/media/pwablog.png" alt="PWA Blog" width="100%">
-</p>
-
-News and articles about Progressive Web Apps.
-
-- **[Progressive web apps information](https://www.webmax.ru/)**
-- **[Progressive web apps repo](https://github.com/webmaxru/webmax.ru)**
-
-> Stacks Used: `angular, scully, azure static web apps, workbox, pwa`
-
----
-
-## Svelte
-
-### **[Shop at Home](https://www.shopathome.dev)**
-
-<p align="center">
-  <img src="docs/media/shop-at-home-svelte.png" alt="Svelte Application" width="100%">
-</p>
-
-
-
-"Shop at Home" is a sample app which is written in four variations: Angular, React, Svelte and Vue. It is shown in the Build 2020 video presentation.
-
-- **[Shop at Home demo](https://www.shopathome.dev)**
-- **[Shop at Home repo](https://github.com/johnpapa/shopathome)**
-
-> Stacks Used: `svelte, react, angular, nodejs, azure static web apps`
-
----
-
-## Vanilla HTML JavaScript CSS
-
-### **[Azure SWAG Demo: A Positive Thought For Your Day](https://ashy-mushroom-05748f31e.azurestaticapps.net/)**
-
-<p align="center">
-  <img src="docs/media/positive-quote.png" alt="Positive quote website screenshot" width="100%">
-</p>
-
-This is a simple barebone demo for [Azure SWAG](https://docs.microsoft.com/azure/static-web-apps?WT.mc_id=staticwebapps-github-yolasors) (**S**tatic **W**eb **A**pps on **G**itHub).
-You can use it as a template for your own apps.
-
-- **[SWAG demo](https://aka.ms/swag-demo)**
-- **[SWAG repo](https://github.com/sinedied/azure-swag/)**
-
-> Stacks Used: `html, javascript, nodejs, azure static web apps`
-
----
-
-### **[Nitrooo landing page](https://victorious-ocean-0337ef81e.azurestaticapps.net/)**
-
-<p align="center">
-  <img src="docs/media/nitrooo.png" alt="Nitrooo App" width="100%">
-</p>
-
-Nitro is a heavily opinionated template for building Serverless applications with NestJS, the fastest-growing NodeJS framework in the world by github stars.
-
-- **[Nitrooo project](https://victorious-ocean-0337ef81e.azurestaticapps.net/)**
-- **[Nitrooo repo](https://github.com/nitro-stack/website)**
-
-> Stacks Used: `javascript, css, html`
-
----
-
-### **[Hexa CLI Landing Page](https://www.hexa.run)**
-
-<p align="center">
-  <img src="docs/media/hexa.png" alt="The ultimate companion for the Azure CLI screenshot" width="100%">
-</p>
-
-Hexa is the ultimate companion for the Azure CLI. It allows you to seamlessly configure, setup and deploy to different Azure services such as Resource Groups, Storage accounts, Hosting, Azure Functions and Databases (CosmosDB and Table Storage) and more.
-
-- **[Hexa project](https://www.hexa.run)**
-- **[Hexa repo](https://github.com/manekinekko/hexa/)**
-
-> Stacks Used: `html, css, javascript`
-
----
-
-## Vue.js
-
-### **[VS Code Can Do That](https://www.vscodecandothat.com)**
-
-<p align="center">
-  <img src="docs/media/vscodecandothat.png" alt="Vs Code Can Do That" width="100%">
-</p>
-
-All the best things about VS Code that nobody ever bothered to show you.
-
-- **[VS Code Can Do That demo](https://www.vscodecandothat.com)**
-- **[VS Code Can Do That repo](https://github.com/burkeholland/vscodecandothat/)**
-
-> Stacks Used: `vuejs, azure static web apps`
-
----
-
-## VuePress
-
-### **[Nitro Workshop](https://nitro-stack.github.io/nitro-workshop/)**
-
-<p align="center">
-  <img src="docs/media/nitro.png" alt="Nitro logo" width="256" height="256">
-<p>
-
-Online workshop built with Vuepress to learn how to build a backend using NestJS. This is a practical workshop where you'll learn "hands-on" by iteratively building an application from scratch using NestJS and Azure.
-
-- **[Nitro workshop](https://nitro-stack.github.io/nitro-workshop/)**
-- **[Nitro workshop repo](https://github.com/nitro-stack/nitro-workshop)**
-
-> Stacks Used: `vuepress, azure static web apps, nodejs, nestjs`
-
----
-
-### **[Peacock for Visual Studio Code Documentation](https://www.peacockcode.dev)**
-
-<p align="center">
-  <img src="docs/media/peacock-icon.png" alt="Peacock icon" width="256" height="256">
-<p>
-
-Peacock is a Visual Studio Code extension with 700,000+ installations. It subtly changes the color of your Visual Studio Code workspace. This is ideal when you have multiple VS Code instances, use VS Live Share, or use VS Code's Remote features, and you want to quickly identify your editor.
-
-- **[Peacock Documentation](https://www.peacockcode.dev)**
-- **[GitHub repo for Peacock Documentation](https://github.com/johnpapa/vscode-peacock)**
-- **[Install the Peacock Extension](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock&wt.mc_id=staticwebapps-github-jopapa)**
-
-> Stacks Used: `vuepress, azure static web apps, nodejs`
-
----
-
-### [Cognitive Search Static Apps Demo](https://lively-sand-033e9ec03.azurestaticapps.net/)
-
-<p align="center">
-  <img src="docs/media/cognitive-search-demo.png" alt="Cognitive Search Static Apps Demo" width="100%">
-</p>
-
-A sample *faceted search* user experience implementation for your [Azure Cognitive Search](https://azure.microsoft.com/services/search/) index. Similar to the [official demo app](https://docs.microsoft.com/azure/search/search-create-app-portal), but a bit more modern. Fork the [repo](https://github.com/scale-tone/cognitive-search-static-web-apps-sample-ui), [deploy](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=react#create-a-static-web-app) it to your Static Web Apps instance, connect it to your Cognitive Search index with a set of [config settings](https://github.com/scale-tone/cognitive-search-static-web-apps-sample-ui#config-settings), optionally [configure authN/authZ](https://docs.microsoft.com/azure/static-web-apps/authentication-authorization) - and you get a fully functioning search UI, with facet filters and geovisualization. The [live demo](https://lively-sand-033e9ec03.azurestaticapps.net/) is pointed to [the official Azure Cognitive Search Sample Data - Repository](https://github.com/Azure-Samples/azure-search-sample-data) index, and you can start with the same. Feel free to use as a template for your own implementations.
-
-- **[Lively Sand demo](https://lively-sand-033e9ec03.azurestaticapps.net/)**
-- **[Lively Sand repo](https://github.com/scale-tone/cognitive-search-static-web-apps-sample-ui)**
-- **[Author: @tino_scale_tone](https://twitter.com/@tino_scale_tone)**
-
-> Stacks Used: `react, nodejs, azure static web apps, azure functions`
