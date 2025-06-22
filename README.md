@@ -32,7 +32,7 @@
 
 This repository showcases a variety of examples, tutorials, and use cases of applications developed using different programming languages and frameworks, all hosted on **[Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/?WT.mc_id=javascript-154160-juliamuiruri)**.
 
-If you have a real-world application in production and would like to share it, we invite you to contribute by opening an issue and then a pull request. If you would like to view examples at the production level, please refer to the designated section: [Real World and Production examples with Azure Static Web Apps](#real-world-and-production-examples-com-azure-static-web-apps).
+If you have a real-world application in production and would like to share it, we invite you to contribute by opening an issue and then a pull request. If you would like to view examples at the production level, please refer to the designated section: [Real World and Production examples with Azure Static Web Apps](#real-world-and-production-examples-with-azure-static-web-apps).
 
 > [!NOTE]
 > Missing an application or specific example? Provide us with your feedback by opening an Issue and suggesting the inclusion of new examples.
